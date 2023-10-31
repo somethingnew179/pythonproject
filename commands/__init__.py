@@ -8,6 +8,6 @@ def create_directory(directory_name):
     os.mkdir(directory_name)
 
 def list_files_and_folders():
-    items = os.listdir("./")
+    items = os.listdir("../")
     for item in items:
         print(item)
